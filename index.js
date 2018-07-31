@@ -50,25 +50,13 @@ const amount2 = 3;
 const pounds = 155;
 
 // Write an expression here which computes
-// the correct value of a constant "kilograms"
+// the correct value of a variable "kilograms"
 
 // Log kilograms to the console
 
 /********************************
  *
- * STEP D: Old Modems
- *
- *********************************/
-
-const sizeInMB = 25;
-
-// Write an expression here which computes the correct value of the a constant "timeToDownload" for a 56kb (per second) modem
-
-// Log timeToDownload to the console
-
-/********************************
- *
- * STEP E: Grand Hotel Tremezzo
+ * STEP D: Grand Hotel Tremezzo
  *
  *********************************/
 
