@@ -60,32 +60,51 @@ const pounds = 155;
  *
  *********************************/
 
-// Create a variable using "let" (to indicate mutability) grandHotelTremezzoGuests that is equal to an array containing three strings - 'George Clooney' 'Silvio Berlusconi' and 'Isabella Rossellini'. Log grandHotelTremezzoGuests.
+// Create a variable randHotelTremezzoGuests  that is equal to an array containing three strings:
+// 'George Clooney' 'Silvio Berlusconi'  and 'Isabella Rossellini'. Log grandHotelTremezzoGuests.
 
 // A new guest is checking in! Add "Fabio" to the end of the array. Log grandHotelTremezzoGuests.
 
-// False alarm! Fabio was on a roller coaster and got hit in the face with a pigeon so he won't be able to stay at the hotel remove him from the end of the array.  (We didn't use this method in class you will have to research.)  Log grandHotelTremezzoGuests.
+// False alarm! Fabio was on a roller coaster and got hit in the face with a pigeon 
+// so he won't be able to stay at the hotel remove him from the end of the array.  
+// (We didn't use this method in class you will have to research.)  Log grandHotelTremezzoGuests.
 
-// A new guest is checking in for real! Add 'Mario Batali' to the end of our array. He is wearing a disguise...but orange crocs. Log grandHotelTremezzoGuests.
+// A new guest is checking in for real! Add 'Mario Batali' to the end of our array. 
+// He is wearing a disguise...but orange crocs. Log grandHotelTremezzoGuests.
 
-// Another new guest is checking in for real! Add 'Mario Balotelli' to the end of our array. Log grandHotelTremezzoGuests.
+// Another new guest is checking in for real! Add 'Mario Balotelli' to the end of our array. 
+// Log grandHotelTremezzoGuests.
 
-// Create a variable that is equal to the number of guests staying in our hotel by checking the items count of grandHotelTremezzoGuests array.  Log this.
+// Create a variable that is equal to the number of guests staying in our hotel by 
+// checking the items count of grandHotelTremezzoGuests array.  Log this.
 
 // Create a variable 'grandHotelTremezzoPastGuests' set to an empty Array.
 
-// George Clooney had a scooter accident so has to check out.  Remove him from our array of guests.  Use both the splice method and the push method to add his name to 'grandHotelTremezzoPastGuests' while simultaneously removing him from grandHotelTremezzoGuests. Log both grandHotelTremezzoGuests and grandHotelTremezzoPastGuests in the same log statement.
+// George Clooney had a scooter accident so has to check out.  
+// Remove him from our array of guests.  Use both the splice method 
+// and the push method to add his name to 'grandHotelTremezzoPastGuests' 
+// while simultaneously removing him from grandHotelTremezzoGuests. 
+// Log both grandHotelTremezzoGuests and grandHotelTremezzoPastGuests in the same log statement.
 
-// ***Re-assign*** the variable that is equal to the number of guests staying in our hotel by checking the items count of grandHotelTremezzoGuests array.  (Don't create a new variable)  Log this.
+// ***Re-assign*** the variable that is equal to the number of guests staying 
+// in our hotel by checking the items count of grandHotelTremezzoGuests array.  
+// (Don't create a new variable)  Log this.
 
-// The hotel is going to deliver a bottle of Nero de Como to each guest. Use a for loop to log out '*Silvio Berlusconi* gets a bottle of Nero de Como' for each guest.
+// The hotel is going to deliver a bottle of Nero de Como to each guest. 
+// Use a for loop to log out '*Silvio Berlusconi* gets a bottle of Nero de Como' for each guest.
 
-// The guests drank their bottles of Nero de Como and are getting rowdy. Tell them to be quiet by using a for loop to say ... '*Silvio Berlusconi* please hush up!!!'
+// The guests drank their bottles of Nero de Como and are getting rowdy. 
+// Tell them to be quiet by using a for loop to say ... '*Silvio Berlusconi* please hush up!!!'
 
 // Create an empty array sleepingGuests
 
-// The guests passed out. Loop over the guests and add them to the sleepingGuests array.  (Don't remove them from grandHotelTremezzoGuests.) Log out sleepingGuests.
+// The guests passed out. Loop over the guests and add them to the sleepingGuests array.  
+// (Don't remove them from grandHotelTremezzoGuests.) Log out sleepingGuests.
 
-// Lake Como has started to flood so all of the guests are fleeing to Milan. Use splice to remove all of the guests (simultaneously using push to add them to the array of checked out guests). Log both grandHotelTremezzoGuests and grandHotelTremezzoPastGuests in the same log statement.
+// Lake Como has started to flood so all of the guests are fleeing to Milan. 
+// Use splice to remove all of the guests (simultaneously using push to add them 
+// to the array of checked out guests). Log both grandHotelTremezzoGuests 
+// and grandHotelTremezzoPastGuests in the same log statement.
 
-// Create a variable (using let) isGrandHotelTremezzoEmpty to be equal to a boolean with the appropriate value (it is empty). Log this variable.
+// Create a variable isGrandHotelTremezzoEmpty to be equal to a 
+// boolean with the appropriate value (it is empty). Log this variable.
