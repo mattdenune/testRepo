@@ -1,6 +1,6 @@
 # HOMEWORK: JS Datatypes and intro to iteration
 
-![Learn JS](./assets/learn.jpg)
+![Learn JS](hotel.jpg)
 
 Please read the directions for each part thoroughly.
 
