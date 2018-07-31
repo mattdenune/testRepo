@@ -17,7 +17,21 @@ console.log('EXAMPLE', 'tripledVariable', tripledVariable);
 
 // DATATYPES
 
-// STEP A: Pythagorean Theorem
+/********************************
+ *
+ * STEP A: Strings
+ *
+ *********************************/
+
+// Set a constant equal to the name of our WDI instance (capitalized) with the name 'bestClass'.  Log this value.
+
+// Set a bestClassLowercase variable converting bestClass to a lowercase string. Log this value.
+
+/********************************
+ *
+ * STEP B: Pythagorean Theorem
+ *
+ *********************************/
 
 const amount1 = 1;
 const amount2 = 3;
@@ -27,7 +41,11 @@ const amount2 = 3;
 
 // Log your answer (the value of total) to the console
 
-// STEP B: Basic Conversion
+/********************************
+ *
+ * STEP C: Basic Conversion
+ *
+ *********************************/
 
 const pounds = 155;
 
@@ -36,15 +54,23 @@ const pounds = 155;
 
 // Log kilograms to the console
 
-// STEP C: Old Modems
+/********************************
+ *
+ * STEP D: Old Modems
+ *
+ *********************************/
 
 const sizeInMB = 25;
 
 // Write an expression here which computes the correct value of the a constant "timeToDownload" for a 56kb (per second) modem
 
-// Log timeToDownloadto the console
+// Log timeToDownload to the console
 
-// STEP D: Grand Hotel Tremezzo
+/********************************
+ *
+ * STEP E: Grand Hotel Tremezzo
+ *
+ *********************************/
 
 // Create a variable using "let" (to indicate mutability) grandHotelTremezzoGuests that is equal to an array containing three strings - 'George Clooney' 'Silvio Berlusconi' and 'Isabella Rossellini'. Log grandHotelTremezzoGuests.
 
@@ -60,8 +86,16 @@ const sizeInMB = 25;
 
 // Create a variable 'grandHotelTremezzoPastGuests' set to an empty Array.
 
-// George Clooney had a scooter accident so has to check out.  Remove him from our array of guests.  Use both the splice method and the push method to add his name to 'grandHotelTremezzoPastGuests' while simultaniously removing him from grandHotelTremezzoGuests.
+// George Clooney had a scooter accident so has to check out.  Remove him from our array of guests.  Use both the splice method and the push method to add his name to 'grandHotelTremezzoPastGuests' while simultaneously removing him from grandHotelTremezzoGuests. Log both grandHotelTremezzoGuests and grandHotelTremezzoPastGuests in the same log statement.
+
+// ***Re-assign*** the variable that is equal to the number of guests staying in our hotel by checking the items count of grandHotelTremezzoGuests array.  (Don't create a new variable)  Log this.
 
 // The hotel is going to deliver a bottle of Nero de Como to each guest. Use a for loop to log out '*Silvio Berlusconi* gets a bottle of Nero de Como' for each guest.
 
 // The guests drank their bottles of Nero de Como and are getting rowdy. Tell them to be quiet by using a for loop to say ... '*Silvio Berlusconi* please hush up!!!'
+
+// The guests drank their bottles of Nero de Como and are getting rowdy. Tell them to be quiet by using a for loop to say ... '*Silvio Berlusconi* please hush up!!!'
+
+// Lake Como has started to flood so all of the guests are fleeing to Milan. Use splice to remove all of the guests (simultaneously using push to add them to the array of checked out guests). Log both grandHotelTremezzoGuests and grandHotelTremezzoPastGuests in the same log statement.
+
+// Create a variable (using let) isGrandHotelTremezzoEmpty to be equal to a boolean with the appropriate value (it is empty). Log this variable.
