@@ -10,7 +10,7 @@ Please read the directions for each part thoroughly.
 2.  Clone it to your local machine from your account using git clone
 3.  Do the homework in the `datatypes/index.js` file
 
-- To test your code, run `node ndex.js`
+- To test your code, run `node index.js`
 
 4.  Push your work up to github with the following steps:
 
