@@ -94,7 +94,9 @@ const sizeInMB = 25;
 
 // The guests drank their bottles of Nero de Como and are getting rowdy. Tell them to be quiet by using a for loop to say ... '*Silvio Berlusconi* please hush up!!!'
 
-// The guests drank their bottles of Nero de Como and are getting rowdy. Tell them to be quiet by using a for loop to say ... '*Silvio Berlusconi* please hush up!!!'
+// Create an empty array sleepingGuests
+
+// The guests passed out. Loop over the guests and add them to the sleepingGuests array.  (Don't remove them from grandHotelTremezzoGuests.) Log out sleepingGuests.
 
 // Lake Como has started to flood so all of the guests are fleeing to Milan. Use splice to remove all of the guests (simultaneously using push to add them to the array of checked out guests). Log both grandHotelTremezzoGuests and grandHotelTremezzoPastGuests in the same log statement.
 
