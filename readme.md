@@ -8,7 +8,7 @@ Please read the directions for each part thoroughly.
 
 1.  Fork this repo to your own account
 2.  Clone it to your local machine from your account using git clone
-3.  Do the homework in the `datatypes/index.js` file
+3.  Do the homework in the `index.js` file
 
 - To test your code, run `node index.js`
 
