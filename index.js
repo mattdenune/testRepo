@@ -29,7 +29,7 @@ console.log('EXAMPLE', 'tripledVariable', tripledVariable);
 
 /********************************
  *
- * STEP B: Pythagorean Theorem
+ * STEP B: Total
  *
  *********************************/
 
