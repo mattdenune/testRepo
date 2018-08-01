@@ -60,7 +60,7 @@ const pounds = 155;
  *
  *********************************/
 
-// Create a variable randHotelTremezzoGuests  that is equal to an array containing three strings:
+// Create a variable grandHotelTremezzoGuests that is equal to an array containing three strings:
 // 'George Clooney' 'Silvio Berlusconi'  and 'Isabella Rossellini'. Log grandHotelTremezzoGuests.
 
 // A new guest is checking in! Add "Fabio" to the end of the array. Log grandHotelTremezzoGuests.
