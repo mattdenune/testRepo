@@ -4,7 +4,7 @@
  *
  *********************************/
 
-// TEST EARLY AND OFTEN - node starter.js in the terminal
+// TEST EARLY AND OFTEN - node index.js in the terminal
 // After each step, git add . AND git commit -m "completed part PART-LETTER-HERE"
 // Complete all four steps specified below - each step needs a console.log statement.
 // EXAMPLE - Try running node starter.js before working on any of the parts and see what happens in the terminal.
