@@ -23,7 +23,7 @@ console.log('EXAMPLE', 'tripledVariable', tripledVariable);
  *
  *********************************/
 
-// Set a constant equal to the name of our WDI instance (capitalized) with the name 'bestClass'.  Log this value.
+// Set a constant equal to the name of our SEI instance (capitalized) with the name 'bestClass'.  Log this value.
 
 // Set a bestClassLowercase variable converting bestClass to a lowercase string. Log this value.
 
