@@ -22,7 +22,7 @@ Please read the directions for each part thoroughly.
 
 - On github, open up a pull request
 - Add your name to the title section
-- to copy and paste the [template](https://git.generalassemb.ly/WDI-Epiphany/class-info/blob/master/SAMPLE_HW_TEMPLATE.md) click the pencil icon (edit this file) then cmd + c
+- to copy and paste the [template](https://git.generalassemb.ly/sei-nyc-oasis/class-info/blob/master/SAMPLE_HW_TEMPLATE.md) click the pencil icon (edit this file) then cmd + c
 - cmd + v into the body of your pull request, then edit the information
 
 ## 🚀 Completion looks like:
