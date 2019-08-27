@@ -12,11 +12,11 @@
 
 
 
-const givenVariable = 20;
-const doubledVariable = givenVariable * 2;
-const tripledVariable = givenVariable * 3;
-console.log(doubledVariable);
-console.log('EXAMPLE', 'tripledVariable', tripledVariable);
+// const givenVariable = 20;
+// const doubledVariable = givenVariable * 2;
+// const tripledVariable = givenVariable * 3;
+// console.log(doubledVariable);
+// console.log('EXAMPLE', 'tripledVariable', tripledVariable);
 // After running this and feeling comfortable, feel free to comment the above block of code out (either give each line a // or highlight the block of code and press COMMAND - / )
 
 // DATATYPES
@@ -30,12 +30,15 @@ console.log('EXAMPLE', 'tripledVariable', tripledVariable);
 
 // Set a constant named 'bestClass' equal to the name of our SEI class (Oasis) capitalized.
 // Log this value to the console.
-
+const bestClass = 'Oasis';
+console.log(bestClass);
 // let bestClass = 'Oasis'
 // let bestClassLowercase = bestClass.toLowerCase()
 
 // Set a constant named bestClassLowercase that converts bestClass to an all lowercase string.
 // Log this value to the console.
+const bestClassLowercase = bestClass.toLowerCase();
+console.log(bestClassLowercase);
 
 
 
@@ -53,7 +56,8 @@ const amount2 = 3;
 // Write an expression here which adds the values of amount1 and amount2 and
 // sets them to a variable called total
 // Log the value of total to the console
-
+var total = amount1 + amount2;
+console.log(total);
 
 
 
@@ -71,7 +75,8 @@ const pounds = 155;
 // Write an expression here which converts pounds to kilograms and set the value equal
 // to a variable called "kilograms"
 // Log kilograms to the console
-
+var kilograms = pounds * 0.454;
+console.log(kilograms);
 
 
 
@@ -90,7 +95,8 @@ const pounds = 155;
 // Create a variable grandHotelTremezzoGuests that is equal to an array containing three strings:
 // 'George Clooney' 'Silvio Berlusconi'  and 'Isabella Rossellini'.
 // Log grandHotelTremezzoGuests to the console.
-
+var grandHotelTremezzoGuests = ['George Clooney', 'Silvio Berlusconi', 'Isabella Rossellini']
+console.log(grandHotelTremezzoGuests);
 
 
 
@@ -98,6 +104,8 @@ const pounds = 155;
 
 // A new guest is checking in! Add "Fabio" to the end of the array.
 // Log grandHotelTremezzoGuests to the console.
+grandHotelTremezzoGuests.push('Fabio');
+console.log(grandHotelTremezzoGuests);
 
 
 
@@ -108,7 +116,8 @@ const pounds = 155;
 // False alarm! Fabio was on a roller coaster and got hit in the face with a pigeon
 // so he won't be able to stay at the hotel remove him from the end of the array.
 // Log grandHotelTremezzoGuests to the console.
-
+grandHotelTremezzoGuests.pop();
+console.log(grandHotelTremezzoGuests);
 
 
 
@@ -119,7 +128,8 @@ const pounds = 155;
 // He is wearing a disguise...but orange crocs.
 // Log grandHotelTremezzoGuests to the console.
 
-
+grandHotelTremezzoGuests.push('Mario Batali');
+console.log(grandHotelTremezzoGuests);
 
 
 
@@ -129,7 +139,8 @@ const pounds = 155;
 
 // Another new guest is checking in for real! Add 'Mario Balotelli' to the end of our array.
 // Log grandHotelTremezzoGuests to the console.
-
+grandHotelTremezzoGuests.push('Mario Balotelli');
+console.log(grandHotelTremezzoGuests);
 
 
 
@@ -141,7 +152,8 @@ const pounds = 155;
 // Create a variable called totalGuests that is equal to the number of guests staying in our hotel
 // by checking the items count of grandHotelTremezzoGuests array.
 // Log totalGuests to the console.
-
+var totalGuests = grandHotelTremezzoGuests.length;
+console.log(totalGuests);
 
 
 /********************************
@@ -156,11 +168,8 @@ const pounds = 155;
 
 // Create a variable 'grandHotelTremezzoPastGuests' set to an empty Array.
 // Log grandHotelTremezzoPastGuests to the console
-
-
-
-
-
+var grandHotelTremezzoPastGuests = [];
+console.log(grandHotelTremezzoPastGuests);
 
 
 
@@ -168,8 +177,9 @@ const pounds = 155;
 // Remove him from grandHotelTremezzoGuests using the splice method. (Google and MDN are your friends here 😊)
 // Then use the push method to add his name to 'grandHotelTremezzoPastGuests'
 // Log both grandHotelTremezzoGuests and grandHotelTremezzoPastGuests in the same console.log statement.
-
-
+var georgeClooney = grandHotelTremezzoGuests.splice(0,1);
+grandHotelTremezzoPastGuests.push(georgeClooney);
+console.log(grandHotelTremezzoGuests.concat(grandHotelTremezzoPastGuests));
 
 
 
@@ -182,6 +192,9 @@ const pounds = 155;
 // in our hotel by checking the currnt items count of grandHotelTremezzoGuests array.
 // (Don't create a new variable!!)
 //  Log the variable to the console.
+
+totalGuests = grandHotelTremezzoGuests.length;
+console.log(totalGuests);
 
 
 
@@ -201,7 +214,9 @@ const pounds = 155;
 // The hotel is going to deliver a bottle of Nero de Como to each guest.
 // Use a for loop to log out '*PERSON'S NAME* gets a bottle of Nero de Como'
 // for each guest in the grandHotelTremezzoGuests array.
-
+grandHotelTremezzoGuests.forEach(function(guest) {
+    console.log(`${guest} gets a bottle of Nero de Como.`)
+})
 
 
 
@@ -214,7 +229,9 @@ const pounds = 155;
 // Tell them to be quiet by using a for loop to log ... '*PERSON'S NAME* please hush up!!!'
 // for each guest in the grandHotelTremezzoGuests array.
 
-
+for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
+    console.log(`${grandHotelTremezzoGuests[i]} please hush up!!!`);
+};
 
 
 
@@ -228,7 +245,8 @@ const pounds = 155;
 
 // Create an empty array assigned to a variable called sleepingGuests
 // Log sleepingGuests to the console.
-
+var sleepingGuests = [];
+console.log(sleepingGuests);
 
 
 
@@ -238,7 +256,10 @@ const pounds = 155;
 // The guests passed out. Loop over the guests and add them to the sleepingGuests array.
 // (Don't remove them from grandHotelTremezzoGuests.)
 // Log sleepingGuests to the console.
-
+grandHotelTremezzoGuests.forEach(function(guest) {
+    sleepingGuests.push(guest);
+});
+console.log(sleepingGuests);
 
 
 
@@ -255,7 +276,8 @@ const pounds = 155;
 // Use splice to remove all of the guests (simultaneously using push to add them
 // to the array of checked out guests). Log both grandHotelTremezzoGuests
 // and grandHotelTremezzoPastGuests in the same log statement.
-
+grandHotelTremezzoPastGuests.push(grandHotelTremezzoGuests.splice(0,4));
+console.log(grandHotelTremezzoGuests.concat(grandHotelTremezzoPastGuests));
 
 
 
